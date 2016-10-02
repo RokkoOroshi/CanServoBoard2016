@@ -1,0 +1,42 @@
+抵抗
+
+PWM出力部(R1~R12)	330Ω
+白枠部(R24~R28,R31)	10kΩ
+
+R13	1k	led
+R14	1k	led
+R15	1k	led
+R16	10k	プルアップ
+R17	1.2k	分圧
+R18	可変20k
+R19	39k	can
+R20	10k	リセットプルアップ
+R21	10k	リセットプルアップ
+R22	1k	led
+R23	1k	led
+R29	4.7k	I2Cプルアップ
+R30	4.7k	I2Cプルアップ
+R32	10k
+R33	1.2k
+
+
+コンデンサ
+C1~C4	22pF	発信子負荷
+C5	0.1uF	DRT
+C6	22uF
+C7	10uF
+C8	0.1uF	パスコン
+
+その他
+ATMega328p	1個	メインマイコン
+MCP2551		1個	CAN通信
+MCP2515		1個	CAN通信
+水晶発信器16MHz	2個
+チップLED	5個	
+B2P-VH		2個	モータ、モータ電源
+B4B-ZR		1個	Arduino書き込み、シリアル通信
+B6B-ZR		1個	ISP書き込み
+B4B-PASK	2個	CAN通信
+ピンヘッダ2x3	2個	IO
+ピンヘッダ3x12相当		1個	PWM
+
